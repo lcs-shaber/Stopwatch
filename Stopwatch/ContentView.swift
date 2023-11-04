@@ -79,4 +79,8 @@ struct ContentView: View {
                 Text("Timer")
             }
     }
-}
+//change the colour of the currently active tab item
+            .accentColor(.orange)
+        
+    }
+
