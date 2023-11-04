@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
+       
         
         ZStack {
             
@@ -27,7 +28,7 @@ struct ContentView: View {
         //Create a circular button
                 HStack {
                     CircleButtonView(
-                        buttonColor: .gray,
+                        buttonColor: Color("DarkGrey"),
                         label: "Reset",
                         labelColor: .white
                     )
@@ -35,7 +36,7 @@ struct ContentView: View {
                     Spacer()
                     
                     CircleButtonView(
-                        buttonColor: .brown,
+                        buttonColor: Color("DarkGreen"),
                         label: "Start",
                         labelColor: .green
                     )
