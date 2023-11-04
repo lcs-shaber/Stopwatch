@@ -52,7 +52,7 @@ struct ContentView: View {
 }
 
 #Preview {
-    // tab View
+    // tab bar
     TabView{
         
         Text("World Clock")
