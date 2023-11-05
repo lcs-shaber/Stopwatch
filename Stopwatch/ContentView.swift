@@ -80,7 +80,7 @@ struct ContentView: View {
             }
     }
 //change the colour of the currently active tab item
-            .accentColor(.orange)
-        
-    }
-
+        .accentColor(.orange)
+//ensure that tab items which are not active remain visible
+        .preferredColorScheme(.dark)
+}
