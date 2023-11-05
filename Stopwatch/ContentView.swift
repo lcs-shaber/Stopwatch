@@ -53,7 +53,7 @@ struct ContentView: View {
 
 #Preview {
     // tab bar
-    TabView{
+    TabView(selection: Binding.constant(3)){
         
         Text("World Clock")
             .tabItem {
