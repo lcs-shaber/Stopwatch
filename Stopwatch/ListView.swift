@@ -68,10 +68,10 @@ struct ListView: View {
         label3: "Lap 3",
         label2: "Lap 2",
         label1: "Lap 1",
-        labelColor5: .white,
-        labelColor4: .red,
+        labelColor5: .black,
+        labelColor4: Color("MidRed"),
         labelColor3: Color("MidGreen"),
-        labelColor2: .white,
-        labelColor1: .white
+        labelColor2: .black,
+        labelColor1: .black
     )
 }
